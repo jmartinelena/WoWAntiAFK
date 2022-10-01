@@ -1,7 +1,7 @@
 # WoWAntiAFK
-An **attempt** at keeping you from disconnecting from game World of Warcraft Classic.
+An **attempt** at keeping you from disconnecting from the game World of Warcraft Classic for being AFK.
 
-It works by disconnecting your character, waiting for a minute and reconnecting you again every time a random amount of time between 5 and 20 minutes passes. This *should* only work in Windows.
+It works by disconnecting your character, waiting for 1.5 minutes and reconnecting you again every time a random amount of time between 5 to 20 minutes passes. This *should* only work in Windows.
 
 Download it [here](https://drive.google.com/file/d/18W3ndzzKBPS5A0ULg73V7Ct4YItlHUEA/view?usp=sharing).
 
@@ -19,6 +19,7 @@ This will fail if:
     <li>Your game crashes.</li>
     <li>You get randomly disconnected.</li>
     <li>It takes longer than a minute for your character to disconnect and reconnect again.</li>
+    <li>You alt tab out of the game during the logout->wait->login process.</li>
 </ul>
 
 ## To do
