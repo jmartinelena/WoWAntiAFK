@@ -7,7 +7,7 @@ Download it [here](https://drive.google.com/file/d/18W3ndzzKBPS5A0ULg73V7Ct4YItl
 
 ## Instructions
 
-##### **Do NOT run this while in queue**. It will click the character migration button if you do. **Only** run this with your character already logged in.
+<h5><b>Do NOT run this while in queue</b>. It will click the character migration button if you do. <b>Only</b> run this with your character already logged in.</h5>
 
 <ol>
     <li><b>Have your character logged in and ready to go afk</b>. You need your chat's message box (where you type in your messages) to be <b>clear</b>.</li>
