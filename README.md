@@ -7,8 +7,10 @@ Download it [here](https://drive.google.com/file/d/18W3ndzzKBPS5A0ULg73V7Ct4YItl
 
 ## Instructions
 
+##### **Do NOT run this while in queue**. It will click the character migration button if you do. **Only** run this with your character already logged in.
+
 <ol>
-    <li>Have your character logged in and ready to go afk. You need your chat's message box (where you type in your messages) to be <b>clear</b>.</li>
+    <li><b>Have your character logged in and ready to go afk</b>. You need your chat's message box (where you type in your messages) to be <b>clear</b>.</li>
     <li>Open the console app.</li>
     <li>Pray that you don't get randomly disconnected from the server.</li>
     <li>Once you are ready to play again, simply close the console. You can also close the game and the console will eventually stop running.</li>
@@ -26,5 +28,6 @@ This will fail if:
 <ol>
     <li>Let you choose how much time to wait in between every cycle.</li>
     <li>Let you choose how much time to wait in between loading screens (disconnecting and reconnecting).</li>
+    <li>Make this work on linux/mac. <-- I think using .NET instead of .NET Framework would do the trick</li>
     <li>Make this less sketchy lol. <small><-- This won't happen</small></li>
 </ol>
