@@ -2,6 +2,7 @@
 An **attempt** at keeping you from disconnecting from the game World of Warcraft Classic for being AFK once you are already logged in.
 
 It works by disconnecting your character, waiting for 1.5 minutes and reconnecting you again every time a random amount of time between 5 to 20 minutes passes. This *should* only work in Windows.  
+
 The program is multi-account friendly, that means you can have multiple characters logged in and **every one** of those would be kept from logging out, as long as every WoW client is running under the process "WowClassic.exe". If you don't care about this feature, just run one WoW client and you'll be golden.
 
 Download it [here](https://drive.google.com/file/d/1J1HwIgUbY__6A5nM9tqhkTebVwKJIk8-/view?usp=sharing).
@@ -28,7 +29,7 @@ This will fail if:
     <li>Some addon interferes with typing in your chat after you've logged in.</li>
 </ul>
 
-Any incidents (in-game/account penalties, wipes, clicking wrong stuff, etc.) are **your** responsability. Check up on the program every now and then.
+Any incidents (in-game/account penalties, wipes, clicking wrong stuff, etc.) are **your** responsibility. Check up on the program every now and then.
 
 ## To do
 <ul>
