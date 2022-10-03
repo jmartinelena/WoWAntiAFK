@@ -26,7 +26,7 @@ namespace WoWAntiAFK
             Console.WriteLine("This program will keep your WoW game open and log you out and back in every time a random amount of time" +
                 " between 5 and 20 minutes passes.");
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("The starting state should be with your character already logged in and ready to go afk. Once the logout loop " +
+            Console.WriteLine("The starting state should be with your character(s) already logged in and ready to go afk. Once the logout loop " +
                 "starts do NOT alt tab out of the game until your character is logged back in.");
             Console.ResetColor();
             Console.WriteLine("You can exit by closing this console at any time. If you close the game while this console is open it will" +
@@ -34,7 +34,7 @@ namespace WoWAntiAFK
             Console.WriteLine();
 
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("Only run the program once you are already logged in. DO NOT RUN WHILE IN QUEUE.");
+            Console.WriteLine("Only run the program once you are already logged into your character(s). DO NOT RUN WHILE IN QUEUE.");
             Console.ResetColor();
 
             string startProgram;
@@ -62,6 +62,9 @@ namespace WoWAntiAFK
                         processes = Process.GetProcessesByName(processName);
                         if (processes.Length == 0) break;
 
+                        int accountCount = 1;
+                        Console.WriteLine($"\tIteration {count}:");
+
                         foreach (Process proc in processes)
                         {
                             SetForegroundWindow(proc.MainWindowHandle);
@@ -75,13 +78,14 @@ namespace WoWAntiAFK
                             inputsim.Keyboard.Sleep(90000);
                             // Reconnects you again
                             inputsim.Keyboard.KeyPress(WindowsInput.Native.VirtualKeyCode.RETURN);
-                            Console.Write($"\tIteration {count} - Executed at {DateTime.Now}");
-                            count++;
+                            Console.WriteLine($"\t\tAccount {accountCount} - Executed at {DateTime.Now}");
+                            accountCount++;
                         }
+                        count++;
 
                         // Wait a random amount of time between 5 and 20 minutes before repeating again
                         int amountOfTime = random.Next(5 * 60000, 20 * 60000);
-                        Console.Write($" - Next attempt at {DateTime.Now + TimeSpan.FromMilliseconds(amountOfTime)}.\n");
+                        Console.WriteLine($"\tNext attempt at {DateTime.Now + TimeSpan.FromMilliseconds(amountOfTime)}.");
                         Thread.Sleep(amountOfTime);
                     }
                 }
