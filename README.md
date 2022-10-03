@@ -3,7 +3,7 @@ An **attempt** at keeping you from disconnecting from the game World of Warcraft
 
 It works by disconnecting your character, waiting for 1.5 minutes and reconnecting you again every time a random amount of time between 5 to 20 minutes passes. This *should* only work in Windows.
 
-Download it [here](https://drive.google.com/file/d/18W3ndzzKBPS5A0ULg73V7Ct4YItlHUEA/view?usp=sharing).
+Download it [here](https://drive.google.com/file/d/17wAHrCPp0skp07aVrxrCzbVKJdvlezOI/view?usp=sharing).
 
 ## Instructions
 
