@@ -69,6 +69,7 @@ namespace WoWAntiAFK
                         {
                             SetForegroundWindow(proc.MainWindowHandle);
                             // Disconnects you
+                            inputsim.Keyboard.Sleep(1000);
                             inputsim.Keyboard.KeyPress(WindowsInput.Native.VirtualKeyCode.RETURN);
                             inputsim.Keyboard.Sleep(1000);
                             inputsim.Keyboard.TextEntry("/logout");
