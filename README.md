@@ -5,7 +5,7 @@ It works by disconnecting your character, waiting for 1.5 minutes and reconnecti
 
 The program is multi-account friendly, that means you can have multiple characters logged in and **every one** of those would be kept from logging out, as long as every WoW client is running under the process "WowClassic.exe". If you don't care about this feature, just run one WoW client and you'll be golden.
 
-Download it [here](https://drive.google.com/file/d/1J1HwIgUbY__6A5nM9tqhkTebVwKJIk8-/view?usp=sharing).
+Download the installer from the latest release [here](https://github.com/jmartinelena/WoWAntiAFK/releases).
 
 ## Instructions
 
